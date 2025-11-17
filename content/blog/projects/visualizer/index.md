@@ -1,7 +1,7 @@
 ---
 title: Path-finding Algorithm Visualizer
 date: "2025-11-01T22:12:03.284Z"
-description: "A tool inspired by CS50AI, making each path-finding algorithm visible and fun to play with."
+description: "A tool inspired by CS50AI, making path-finding algorithms visible and fun to play with."
 ---
 
 [View the Live Demo →](https://path-finding-algorithm-visualizer-gamma.vercel.app/home)
