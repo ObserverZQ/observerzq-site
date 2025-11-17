@@ -286,6 +286,7 @@ a:focus {
 
 .bio {
   display: flex;
+  align-items: center;
   margin-bottom: var(--spacing-16);
 }
 
@@ -296,8 +297,8 @@ a:focus {
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
-  border-radius: 100%;
+  min-width: 39px;
+  border-radius: 10%;
 }
 
 .blog-post header h1 {

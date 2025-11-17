@@ -9,15 +9,17 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `ObserverZQ's site`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ziqing`,
+      summary: ` a software engineer exploring AI + HCI through interactive visualization projects..`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: "",
+      linkedin: `https://www.linkedin.com/in/ziqing-gao-9439b2224/`,
+      github: "https://github.com/ObserverZQ/",
     },
   },
   plugins: [
@@ -110,7 +112,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Gatsby Starter Blog1`,
         short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#ffffff`,
@@ -121,5 +123,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    "gatsby-plugin-postcss",
   ],
 }
